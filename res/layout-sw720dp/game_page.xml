@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_oyun2"
+    android:orientation="vertical" >
+
+    <LinearLayout
+		android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:maxHeight="500dp" >
+
+        <ImageButton
+            android:id="@+id/left_crash_cymbal"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:contentDescription="@string/none"
+            android:maxHeight="500dp"
+            android:maxWidth="350dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/left_crash_cymbal" />
+
+        <ImageButton
+            android:id="@+id/left_snare_drum"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:contentDescription="@string/none"
+            android:maxHeight="200dp"
+            android:maxWidth="200dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/right_snare" />
+
+        <ImageButton
+            android:id="@+id/right_snare_drum"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:contentDescription="@string/none"
+            android:maxHeight="200dp"
+            android:maxWidth="200dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/left_snare" />
+
+        <ImageButton
+            android:id="@+id/right_crash_cymbal"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:contentDescription="@string/none"
+            android:maxHeight="500dp"
+            android:maxWidth="350dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/right_crash_cymbal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="100dp"
+		android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/left_high_tom"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:contentDescription="@string/none"
+            android:maxHeight="500dp"
+            android:maxWidth="350dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/left_high_tom" />
+		<ImageView
+            android:id="@+id/empty"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:contentDescription="@string/none"
+            android:maxHeight="500dp"
+            android:maxWidth="400dp"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:src="@drawable/right_high_tom" />
+        
+        <ImageButton
+            android:id="@+id/right_high_tom"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:contentDescription="@string/none"
+            android:maxHeight="500dp"
+            android:maxWidth="350dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/right_high_tom" />
+    </LinearLayout>
+
+</LinearLayout>
